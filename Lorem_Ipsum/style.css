@@ -16,7 +16,7 @@ header {
 }
 
 .header-heading {
-  width: 1024px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: flex-end;
@@ -65,6 +65,76 @@ header {
 .visual-text {
   font-size: 20px;
   margin-top: 10px;
+}
+
+.portfolio {
+  background-color: #eceff1;
+  width: 100%;
+}
+
+.portfolio-container {
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.portfolio-headline h2 {
+  font-size: 32px;
+}
+
+.line {
+  height: 3px;
+  width: 70px;
+  background-color: #ec715f;
+  margin: 8px auto 0;
+}
+
+.text-headline {
+  padding: 30px 0;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-box {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.item-box:nth-child(3n) {
+  margin: 0 0 10px 0;
+}
+
+.item-box:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+}
+
+.item-box:nth-child(2) {
+  background-image: url(img/websuku.png);
+}
+
+.item-box:nth-child(3) {
+  background-image: url(img/write.jpg);
+}
+
+.item-box:nth-child(4) {
+  background-image: url(img/webcamp.png);
+  margin-bottom: 0;
+}
+
+.item-box:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin-bottom: 0;
+}
+
+.item-box:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
 }
 
 footer {
