@@ -8,7 +8,7 @@
 a {
   text-decoration: none;
 }
-
+/* ここからヘッダー */
 header {
   width: 100%;
   background-color: #ec715f;
@@ -44,6 +44,12 @@ header {
   color: #fafafa;
 }
 
+/* ここからメイン */
+main {
+  width: 100%;
+}
+
+/* ここからmain-visual */
 .main-visual {
   width: 100%;
   height: 650px;
@@ -67,6 +73,7 @@ header {
   margin-top: 10px;
 }
 
+/* ここからportfolio */
 .portfolio {
   background-color: #eceff1;
   width: 100%;
@@ -92,6 +99,7 @@ header {
 
 .text-headline {
   padding: 30px 0;
+  text-align: center;
 }
 
 .item-container {
@@ -137,13 +145,39 @@ header {
   background-image: url(img/webcamp-mother.png);
 }
 
+/* ここからfeature */
 .feature-container {
-  text-align: center;
   width: 980px;
   margin: 0 auto;
   padding: 90px 0;
+  text-align: center;
 }
 
+.feature-item {
+  width: 320px;
+  margin-right: 10px;
+}
+
+.feature-item:last-child {
+  margin-right: 0;
+}
+
+.fas {
+  font-size: 60px;
+}
+
+.feature-item h4 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* ここからprofile */
+.profile {
+  background-color: #eceff1;
+  width: 100%;
+}
+
+/* ここからfooter */
 footer {
   width: 100%;
   height: 60px;
